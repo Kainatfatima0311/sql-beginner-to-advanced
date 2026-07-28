@@ -1,10 +1,7 @@
--- SQL Syntax Examples
+-- Display only Customer Name
+SELECT CustomerName
+FROM Customers;
 
--- Display all columns
-SELECT * FROM Students;
-
--- Display only Name column
-SELECT Name FROM Students;
-
--- Display Name and City
-SELECT Name, City FROM Students;
+-- Display Customer Name and City
+SELECT CustomerName, City
+FROM Customers;
