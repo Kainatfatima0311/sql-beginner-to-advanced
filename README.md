@@ -1,2 +1,2 @@
 # sql-beginner-to-advanced
-A structured SQL repository covering core concepts, practical queries, exercises, and database projects from beginner to advanced level.
+A comprehensive SQL learning repository featuring structured notes, practical SQL queries, hands-on database exercises, and real-world examples based on the W3Schools SQL curriculum.
