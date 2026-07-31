@@ -1,0 +1,5 @@
+USE practice_db;
+
+SHOW DATABASES;
+
+SHOW TABLES;
