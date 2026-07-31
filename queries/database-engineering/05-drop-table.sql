@@ -1,0 +1,3 @@
+DROP TABLE Persons;
+
+DROP TABLE IF EXISTS Persons;
