@@ -6,6 +6,12 @@
             "driver": "SQLite",
             "name": "SQL Practice",
             "database": "${workspaceFolder:sql-beginner-to-advanced}/database/practice.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "database/learning_sql.db",
+            "database": "${workspaceFolder:sql-beginner-to-advanced}/database/learning_sql.db"
         }
     ]
 }
