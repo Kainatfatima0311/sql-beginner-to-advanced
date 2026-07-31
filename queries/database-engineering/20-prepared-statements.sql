@@ -1,0 +1,8 @@
+PREPARE GetUser
+FROM 'SELECT * FROM Users WHERE UserID = ?';
+
+SET @id = 1;
+
+EXECUTE GetUser USING @id;
+
+DEALLOCATE PREPARE GetUser;
