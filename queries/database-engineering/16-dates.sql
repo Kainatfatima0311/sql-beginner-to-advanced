@@ -1,0 +1,28 @@
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    CustomerName VARCHAR(100),
+    OrderDate DATE
+);
+
+INSERT INTO Orders
+VALUES
+(1,'Ali','2026-07-31');
+
+SELECT *
+FROM Orders;
+
+SELECT *
+FROM Orders
+WHERE OrderDate = '2026-07-31';
+
+SELECT *
+FROM Orders
+WHERE OrderDate > '2026-01-01';
+
+SELECT *
+FROM Orders
+WHERE OrderDate BETWEEN '2026-01-01' AND '2026-12-31';
+
+SELECT CURRENT_DATE();
+
+SELECT CURRENT_TIMESTAMP();
