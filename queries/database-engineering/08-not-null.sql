@@ -1,0 +1,14 @@
+CREATE TABLE Students (
+    StudentID INT,
+    Name VARCHAR(100) NOT NULL,
+    City VARCHAR(50)
+);
+
+INSERT INTO Students
+VALUES (1, 'Ali', 'Lahore');
+
+ALTER TABLE Students
+MODIFY Name VARCHAR(100) NOT NULL;
+
+ALTER TABLE Students
+ALTER COLUMN Name VARCHAR(100) NOT NULL;
